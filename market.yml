@@ -23,6 +23,6 @@ jobs:
 
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN 8469598223:AAHHpqS76PDtnEI5-dItkpsEGjcS-CwenuI}}
-          CHAT_ID: ${{ secrets.CHAT_ID 6806892545}}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python bot.py
